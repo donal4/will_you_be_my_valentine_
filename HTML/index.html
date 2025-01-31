@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../CSS/styles.css">
+    <title>;)</title>
+</head>
+
+
+<body>
+
+
+
+    <center>
+        <h1 id="main_title">
+            Happy Valentines Day!!!!
+        </h1>
+
+
+        <div id="main_content">
+            <p id="question">will you be my valentine?</p>
+            <br>
+
+            <button id="yes" onclick="yesFunction()">Yes!!!!</button>
+            <button id="no" onclick="noFunction()">no.....</button>
+            <script>
+                conslole.log("js running ")
+                function yesFunction() {
+                    console.log("yes function running ")
+                    // main content 
+                    document.open("text/html", "replace");
+
+                    document.write('    <html><head><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide"> <meta name="viewport" content="width=device-width, initial-scale=1"> <link rel="stylesheet" href="../CSS/styles.css"><title>;)</title></head><body>  <center><h1 id="main_title">Really? Ilove you so much!!!!</h1></center> <div id="main_content"> <center> <p id="h">im so happy!!!!!</p> </center> <center></center></div></body><footer></html>');
+                    //image container<img src="../IMAGES/q.jpeg" alt="images loading..
+                    //document.write('<center><div class="row"><div class="column"><img src="../IMAGES/1.jpg"><img src="../IMAGES/2.jpg"><img src=".. /IMAGES/3.jpg"></div><div class="column"><img src="../IMAGES/13.jpeg"><img src="../IMAGES/5.jpg"><img src=".. /IMAGES/12.jpeg"></div><div class="column"><img src="../IMAGES/6.jpeg"><img src="../IMAGES/7.jpeg"><img src=".. /IMAGES/sample.jpeg"></div><div class="column"><img src="../IMAGES/8.jpg"><img src="../IMAGES/9.jpeg"><img src=".. /IMAGES/10.jpeg"></div></div></center>')
+                    document.write(' <center>     <img src="../IMAGES/yes1.gif"> </center>')
+                    //close
+                    document.close();
+                }
+
+                function noFunction() {
+                    console.log("no function running")
+                    let button = '';
+                    let i = 0;
+                    let num = '100';
+                    //find button 
+                    button = document.getElementById('no');
+
+                    num = num.replace('%', ' ')
+                    num = num + ('0' * i) + '%';
+                    button = document.getElementById('no').innerHTML = 'are you 1000000000000% sure';
+                    console.log('are you ', num, ' sure')
+                }
+
+            </script>
+
+        </div>
+    </center>
+
+
+
+
+
+
+
+</body>
+
+<footer>
+    <!--footer -->
+</footer>

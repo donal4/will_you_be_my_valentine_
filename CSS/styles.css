@@ -1,0 +1,88 @@
+body {
+
+    background-image: url('../IMAGES/background.jpg');
+    color: azure;
+    font-size: x-large;
+}
+img{
+    max-width: 50%;
+    max-height: 50%;
+}
+
+form {
+    text-align: center;
+}
+
+#main_title {
+    border-radius: 30px;
+    background-color: #a20000;
+}
+
+#yes {
+    background-color: #1ea200;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 90px;
+}
+
+#no {
+    background-color: #a20000;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 90px;
+}
+
+#main_title {
+    max-width: 30%;
+    max-height: 50%;
+    font-size:200%;
+}
+
+
+#main_content {
+    float: middle;
+}
+#h{
+    font-size: xx-large;
+}
+
+
+img {
+    border-radius: 90px;
+    border: 15px solid #f4c9bb;
+    padding: 5px;
+}
+
+
+
+/*image grid thing*/
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+    flex: 50%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
